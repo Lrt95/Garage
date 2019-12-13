@@ -1,14 +1,13 @@
 package com.antony.option;
 
-public class GPS implements IOption {
+public class BarreDeToit implements IOption {
   private Double prix;
   private String name;
 
-  public GPS() {
-    this.prix = 100.0d;
-    this.name = "GPS";
+  public BarreDeToit() {
+    this.prix = 3000.0d;
+    this.name = "Barre de toit";
   }
-
 
   @Override
   public Double getPriceOption() {
@@ -17,7 +16,7 @@ public class GPS implements IOption {
 
   @Override
   public String toString() {
-    return "GPS{" +
+    return "Barre de toit{" +
         "prix=" + prix +
         ", name='" + name + '\'' +
         '}';

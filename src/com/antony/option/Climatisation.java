@@ -1,12 +1,12 @@
 package com.antony.option;
 
-public class GPS implements IOption {
+public class Climatisation implements IOption{
   private Double prix;
   private String name;
 
-  public GPS() {
-    this.prix = 100.0d;
-    this.name = "GPS";
+  public Climatisation() {
+    this.prix = 5462.24d;
+    this.name = "Climatisation";
   }
 
 
@@ -17,7 +17,7 @@ public class GPS implements IOption {
 
   @Override
   public String toString() {
-    return "GPS{" +
+    return "Climatisation{" +
         "prix=" + prix +
         ", name='" + name + '\'' +
         '}';

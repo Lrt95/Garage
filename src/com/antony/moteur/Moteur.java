@@ -1,7 +1,10 @@
 package com.antony.moteur;
 
-public class Moteur {
-  private TypeMoteur type;
+import com.antony.voiture.Voiture;
+import java.io.Serializable;
+
+public class Moteur extends Voiture implements Serializable {
+  protected TypeMoteur type;
   private String cylidre;
   private Double prix;
 
@@ -12,6 +15,10 @@ public class Moteur {
     this.type = null;
     this.cylidre = cylidre;
     this.prix = prix;
+  }
+
+  public Double getPriceMoteur() {
+    return prix;
   }
 
   @Override

@@ -1,26 +1,23 @@
 package com.antony.voiture;
 
-import java.util.stream.Stream;
-
 public enum Marque {
-  Peugeot("Peugeot"),
-  Citroen("Citroen"),
-  Renault("Renault"),
-  Ferrari("Ferrari"),
-  Audi("Audi"),
-  Porsche("Porsche"),
+  PEUGEOT("Peugeot"),
+  CITROEN("Citroen"),
+  RENAULT("Renault"),
+  FERRARI("Ferrari"),
+  AUDI("Audi"),
+  PORSCHE("Porsche"),
   BMW("BMW"),
-  Dacia("Dacia"),
-  Toyota("Toyota"),
-  Hyundai("Hyundai"),
-  Seat("Seat");
+  DACIA("Dacia"),
+  TOYOTA("Toyota"),
+  HYUNDAI("Hyundai"),
+  SEAT("Seat");
 
   private String name = "";
 
   Marque(String name) {
     this.name = name;
   }
-
 
 
   public String toString() {

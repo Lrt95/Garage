@@ -1,16 +1,16 @@
 package com.antony.moteur;
 
-public class MoteurEssence extends Moteur {
-
+public class MoteurDiesel extends Moteur {
   private TypeMoteur moteur;
-  public MoteurEssence(String cylidre, Double prix) {
+  public MoteurDiesel(String cylidre, Double prix) {
     super(cylidre, prix);
-    this.type = TypeMoteur.ESSENCE;
+    this.type = TypeMoteur.DIESEL;
   }
 
   @Override
   public String toString() {
     return super.toString();
   }
+
 
 }
